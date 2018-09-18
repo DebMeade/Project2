@@ -1,6 +1,6 @@
 USE drugTracker_db;
 
-INSERT INTO drugs (ndcNum, rxNum, drugName, drugForm, drugFormSize, drugFormMeasure, bottleFullQty,
+INSERT INTO drugs (ndcNum, rxNum, name , drugName, drugForm, drugFormSize, drugFormMeasure, bottleFullQty,
 bottlePartialQty, rxWritten, rxFilled, rxDiscard, rxReorder, drugDose, drugFreq, early, mid, late, 
 instructions, precautions) 
 

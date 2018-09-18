@@ -6,7 +6,8 @@ USE drugTracker_db;
 CREATE TABLE drugs
 (
     ndcNum INT (40) NOT NULL, 
-    rxNum   INT (40) NOT NULL, 
+    rxNum   INT (40) NOT NULL,
+    name VARCHAR(40) NOT NULL, 
     drugName VARCHAR (40) NOT NULL,
     drugForm VARCHAR (40) NOT NULL, 
     drugFormSize INT (40) NULL, 
